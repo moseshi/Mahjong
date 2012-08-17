@@ -15,7 +15,6 @@ public class Field {
 	private final int numberOfPlayers;
 	
 	public Field(int number){
-		number = 4;
 		numberOfPlayers = number;
 		for(int i = 0;i < numberOfPlayers;i++)
 			players.add(new Player());
